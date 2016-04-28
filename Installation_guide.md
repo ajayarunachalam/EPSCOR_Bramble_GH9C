@@ -1,3 +1,7 @@
+Can we add a summary paragraph here?
+In this documentation, we outline the requirements for installation, setup and management of 165 Raspberry Pis currently deployed and wirelessly maintained in Greenhouse 9C at the Donald Danforth Plant Science Center. Also included is our current pipeline for image analysis using VisualSFM.
+
+
 Installation, setup, and user guide
 ===================================
 
@@ -43,8 +47,8 @@ Installation, setup, and user guide
 
 ### Ansible Setup ###
   * Depending on the setup of the centralized server that will be launching Ansible, you will need to pick what is best for you from the [Ansible installation documentation][].
-  * We installed ansible from github for a rootless (no privileges) installation.
-      * If installed on a server infrastructure, if you do not have access to an administrator or administrator privileges, a github installation may be the best option for you.
+  * We installed Ansible from github for a rootless (no privileges) installation.
+      * If installed on a server infrastructure, and you do not have access to an administrator or administrator privileges, a github installation may be the best option for you.
   * Ansible setup is rather straightforward and should not be very problematic.
   * After you have installed Ansible on your server, make sure to generate ssh keys for the server.
       * [GitHub Generating SSH-Key][]
@@ -85,7 +89,7 @@ Installation, setup, and user guide
 
 #### Setting up your Raspberry Pi: ####
 
-  * Log in to the Original Raspberry PI using a usb mouse and keyboard and an HDMI capable monitor.
+  * Log in to the Original Raspberry PI using a usb mouse and keyboard and an HDMI-capable monitor.
   * **WiFi:**
       * Set up the network following instructions using the Graphical User Interface (GUI): [GUI WiFi Setup][]
           * Look only under the **New Wifi Interface** heading.
